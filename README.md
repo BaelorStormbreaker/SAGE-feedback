@@ -18,7 +18,7 @@ You need a free GitHub account to post.
 - **Check the known issues below** and the FAQ on the CurseForge page.
 
 ## Known issues
-Last updated for SAGE 0.12.0.
+Last updated for SAGE 1.0.0.
 
 | Issue | Status |
 |---|---|
