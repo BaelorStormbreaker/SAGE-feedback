@@ -5,7 +5,9 @@ Bug reports and ideas for **SAGE (Stat Analysis & Gear Evaluator)**, a gearing a
 This repository holds reports only. Get SAGE from CurseForge (author: BaelorStormbreaker).
 
 ## Report a bug or suggest an idea
-1. Click **Issues**, then **New issue**.
+**[Start a new report here](https://github.com/BaelorStormbreaker/SAGE-feedback/issues/new/choose)**
+
+1. Click the link above (or **Issues > New issue** at the top of this page).
 2. Choose **Bug report** or **Idea or suggestion**.
 3. For bugs: in game, click SAGE's **Report** button (or type `/sage report`), copy the text and paste it into the form. It tells us your SAGE version, class, level, active route and the last error, so we can find the problem faster.
 
