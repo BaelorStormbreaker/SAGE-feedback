@@ -1,0 +1,47 @@
+name: Bug report
+description: Something in SAGE isn't working as it should
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! The quickest way to give us what we need: click **Report** in SAGE (or type `/sage report`), copy the text, and paste it below.
+        Please leave other players' names and chat out of screenshots.
+  - type: textarea
+    id: report
+    attributes:
+      label: SAGE report text
+      description: From SAGE's Report button or `/sage report`. It includes your SAGE version, class, level, active route and the last error.
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: SAGE version (if you couldn't paste the report)
+      description: Type /sage version in game.
+      placeholder: "1.0.0"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: And what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we see it happen?
+      placeholder: |
+        1. Open the Auction House
+        2. Click Find Me Upgrades
+        3. ...
+  - type: textarea
+    id: error
+    attributes:
+      label: Error text (if any)
+      description: If the game showed an error, paste the whole text. To see errors, type /console scriptErrors 1.
+      render: text
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag images here.

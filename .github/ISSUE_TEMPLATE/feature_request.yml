@@ -1,0 +1,24 @@
+name: Idea or suggestion
+description: Something SAGE could do, or do better
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like SAGE to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help you?
+      description: What are you trying to do in game when you wish SAGE did this?
+  - type: input
+    id: character
+    attributes:
+      label: Your class and spec (optional)
+      placeholder: "Shaman, Enhancement"
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or examples (optional)
