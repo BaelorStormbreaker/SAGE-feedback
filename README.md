@@ -13,6 +13,26 @@ This repository holds reports only. Get SAGE from CurseForge (author: BaelorStor
 
 You need a free GitHub account to post.
 
+## Before you report
+- **Update first.** Only the latest version of SAGE is supported. Update in your CurseForge app, then check the problem is still there.
+- **Check the known issues below** and the FAQ on the CurseForge page.
+
+## Known issues
+Last updated for SAGE 0.12.0.
+
+| Issue | Status |
+|---|---|
+| "attempt to index local 'color' (a secret table value...)" when pressing Shift | Fixed in 0.12.0 |
+| "attempt to compare ... a secret number value" in tooltips | Fixed in 0.9.0 |
+| Set bonuses, "Use:" and proc effects aren't scored | By design for now; set pieces get a note |
+| Odd results on non-English game clients | English client only for now |
+| First Auction House scans are slow | Expected: random-suffix items are looked up once, then remembered |
+
+## What's next
+Ideas are tracked as **Idea or suggestion** reports. To vote, give the report a 👍 (the smiley button on the first post). Please don't add "+1" comments; reactions are easier to count.
+
+Most requested ideas are considered first. Nothing is promised until it's planned for a release.
+
 ## What happens next
 1. Reports are labeled (bug or idea) and checked for duplicates. We may ask a question.
 2. Bug fixes go out first as a **Beta** file on CurseForge for testing, then as a full release.

@@ -1,0 +1,29 @@
+# Closes reports labelled "needs info" when the reporter hasn't replied in 14
+# days (a warning comes 7 days before). Runs daily as github-actions[bot], so
+# no personal account appears on the report. Other reports are never touched.
+name: Close reports waiting for info
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+permissions:
+  issues: write
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v11
+        with:
+          only-issue-labels: "needs info"
+          days-before-issue-stale: 7
+          days-before-issue-close: 7
+          days-before-pr-stale: -1
+          days-before-pr-close: -1
+          stale-issue-label: "stale"
+          stale-issue-message: >
+            This report is waiting for more details. If we don't hear back in 7 days
+            it will be closed; you can reopen it or start a new report any time.
+          close-issue-message: >
+            Closed because we didn't get the details we needed. If the problem is
+            still there, please start a new report and include the text from
+            SAGE's Report button (/sage report).
