@@ -26,6 +26,11 @@ body:
       description: And what did you expect instead?
     validations:
       required: true
+  - type: input
+    id: item
+    attributes:
+      label: Item and where you saw it (for a wrong verdict)
+      description: The item's name and where it was, for example "Buccaneer's Bracers, quest reward from Bloodsail Buccaneers" or "Auction House".
   - type: textarea
     id: steps
     attributes:
