@@ -2,7 +2,7 @@
 
 Bug reports and ideas for **SAGE (Stat Analysis & Gear Evaluator)**, a gearing advisor addon for WoW: Forever.
 
-This repository holds reports only. Get SAGE from CurseForge (author: BaelorStormbreaker).
+This repository holds reports only. Get SAGE from [CurseForge](https://www.curseforge.com/wow/addons/name-sage-stat-analysis-gear-evaluator) (author: BaelorStormbreaker).
 
 ## Report a bug or suggest an idea
 **[Start a new report here](https://github.com/BaelorStormbreaker/SAGE-feedback/issues/new/choose)**
